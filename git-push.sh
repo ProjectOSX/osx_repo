@@ -4,8 +4,8 @@
 echo "Checking for newer files online first"
 git pull
 
-
-./x86_64/make-repo.sh
+cd x86_64
+./make-repo.sh
 # Below command will backup everything inside the project folder
 git add --all .
 
