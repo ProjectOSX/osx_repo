@@ -1,11 +1,11 @@
 #!/bin/bash
 
-rm OSX_Repo*
+rm osx_repo*
 
 echo "repo-add"
-repo-add OSX_Repo.db.tar.gz *.pkg.tar.zst
+repo-add osx_repo.db.tar.gz *.pkg.tar.zst
 
-sleep 1
+sleep 5
 
 echo "####################################"
 echo "Repo Updated!!"
